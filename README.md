@@ -10,24 +10,24 @@ Objective of this project was to explore the challenges and opportunities relate
 # Description of the files:
 
 1) All the cvs and xlsx files are data collected from receiver end using a python script. The data contain upload throughput, download throughput, latency date collected after every 5 minutes interval for a day
-2) Heatmap.m: This is MATLAB code for creating heatmaps of throughput (upload and download), SNR and received power around OSU feedlot where the TVWS transmitter was mounted on a tower.
+2) **Heatmap.m**: This is MATLAB code for creating heatmaps of throughput (upload and download), SNR and received power around OSU feedlot where the TVWS transmitter was mounted on a tower.
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/rp_main.jpg)
 
-3) CollinsCattle_LOS_Simulation.m: This is MATLAB simulation code for availability of line of sight at Collins cattle, Tillman county from two Pioneer cell towers.
+3) **CollinsCattle_LOS_Simulation.m**: This is MATLAB simulation code for availability of line of sight at Collins cattle, Tillman county from two Pioneer cell towers.
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/tillman_los_sim.jpg)
 
-4) LifeChurchPlots_azimuth_elevation.m: This is MATLAB code for evaluating effects of azimuth and elevation angles of receiver antenna on the network parameters like throughput (upload and download) and received power. At Lifechurch of Stillwater, OK, data were collected by varying azimuth and elevation of receiver antenna and those data were plotted using this code.
+4) **LifeChurchPlots_azimuth_elevation.m**: This is MATLAB code for evaluating effects of azimuth and elevation angles of receiver antenna on the network parameters like throughput (upload and download) and received power. At Lifechurch of Stillwater, OK, data were collected by varying azimuth and elevation of receiver antenna and those data were plotted using this code.
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/Azimuth_tp.jpg)
 
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/Elevation_tp.jpg)
 
-5) new_code_collins_data_2.m and throughput_collins_mar6.m: MATLAB code for plotting upload and download throughput and latency data for different days when the service was live at Collins cattle, Tillman county, OK, USA.
+5) **new_code_collins_data_2.m and throughput_collins_mar6.m**: MATLAB code for plotting upload and download throughput and latency data for different days when the service was live at Collins cattle, Tillman county, OK, USA.
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/collins_performance.png)
 
-6) new_code_feedlot.m and oct24_25_throughput_feedlot.m: MATLAB code for plotting upload and download throughput and latency data for different days when the service was live at Collins cattle, Tillman county, OK, USA.
+6) **new_code_feedlot.m and oct24_25_throughput_feedlot.m**: MATLAB code for plotting upload and download throughput and latency data for different days when the service was live at Collins cattle, Tillman county, OK, USA.
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/feedlot_tp_lat_oct_24_25.png)
 
-7) Pathloss_analysis.m: MATLAB code for pathloss analysis in Stillwater (Transmitter mounted at OSU feed mill)
+7) **Pathloss_analysis.m**: MATLAB code for pathloss analysis in Stillwater (Transmitter mounted at OSU feed mill)
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/TVWS_pathloss.png)
 
 
