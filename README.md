@@ -27,6 +27,9 @@ Objective of this project was to explore the challenges and opportunities relate
 6) new_code_feedlot.m and oct24_25_throughput_feedlot.m: MATLAB code for plotting upload and download throughput and latency data for different days when the service was live at Collins cattle, Tillman county, OK, USA.
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/feedlot_tp_lat_oct_24_25.png)
 
+7) Pathloss_analysis.m: MATLAB code for pathloss analysis in Stillwater (Transmitter mounted at OSU feed mill)
+![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/TVWS_pathloss.png)
+
 
 
 # Key outcome fromt he project:
