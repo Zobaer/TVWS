@@ -30,7 +30,8 @@ Objective of this project was to explore the challenges and opportunities relate
 7) **Pathloss_analysis.m**: MATLAB code for pathloss analysis in Stillwater (Transmitter mounted at OSU feed mill)
 ![alt text](https://github.com/Zobaer/TVWS/blob/main/figs/TVWS_pathloss.png)
 
-
+8) **forspeedtest.py**: Python script to measure download and upload speed and latency.
+9) **speedapp.sh**: Shell script that uses the python script, measures download and upload speed and latency after every 5 mins and store the data daily in a file in the Raspberry Pi and also in a Google Drive folder.
 
 # Key outcome fromt he project:
 1.	Inside lab, testing with single channel and dual channel resulted in 10.7 Mbps and 18.6 Mbps download throughputs respectively which were 82.3% and 77.5% of maximum throughput possible (24 Mbps) using Adaptrum TVWS radios. The upload throughputs were similar too. There was no control from user level on modulation rate used to modulate the transmitted signal in Adaptrum radios. The download signal to noise ratio (SNR) was high (48.52 dB). With this SNR, throughputs would have been higher if the radios chose higher order modulation (256QAM instead of 64QAM) for modulating the signal.
